@@ -1,0 +1,240 @@
+* {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+body {
+  margin: 0px;
+}
+.header {
+  padding-top: 10px;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  height: 50px;
+  width: auto;
+  margin-left: 30px;
+}
+.content {
+  position: relative;
+}
+.content div {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+.heading {
+  text-align: right;
+}
+.heading h4 {
+  margin: 0px;
+  display: inline-block;
+  padding: 20px;
+  font-size: 20px;
+  color: #ffff;
+}
+.banner {
+  min-height: 60vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+    url("../images/bg8.jpg");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.hero-btn {
+  display: inline-block;
+  border: 1px solid rgb(76, 102, 246);
+  border-radius: 30px;
+  padding: 12px 34px;
+  color: rgb(207, 204, 204);
+  background: transparent;
+  position: relative;
+  cursor: pointer;
+}
+.hero-btn:hover {
+  border: 1px solid #314ce7;
+  background: #4e408b;
+  color: rgb(255, 255, 255);
+  transition: 1s;
+}
+.icons {
+  display: flex;
+  justify-content: right;
+  margin-right: 20px;
+}
+.icons .fab {
+  color: #12a1db;
+  cursor: pointer;
+  padding: 5px;
+  text-align: right;
+  border: 1px solid #12a1db;
+  margin: 5px;
+}
+h3 {
+  color: black;
+}
+.extra p,
+h1 {
+  text-align: center;
+  padding: 10px;
+  color: rgb(175, 172, 172);
+}
+.btn-div {
+  text-align: center;
+}
+.services {
+  text-align: center;
+  margin: auto;
+  padding-top: 100px;
+}
+.row {
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+.service-col {
+  flex-basis: 30%;
+  color: #333333ad;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  padding: 20px 12px;
+  box-sizing: border-box;
+  margin: 2%;
+}
+.service-btn {
+  background-color: #12a1db;
+  display: inline-block;
+  border: none;
+  border-radius: 30px;
+  padding: 10px;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+.line {
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+  border: 1px solid #12a1db;
+  width: 50px;
+}
+.os {
+  margin: 0;
+  color: rgb(0, 0, 0);
+  letter-spacing: 0.04cm;
+  text-align: center;
+}
+
+i {
+  color: #12a1db;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.service-col i {
+  font-size: 40px;
+}
+
+.testinomial-block {
+  background-color: #d7d7d7;
+}
+.testimonial-img {
+  /* background-image: url("../images/boy1.png"); */
+  height: 200px;
+  width: 200px;
+  background-size: cover;
+  display: block;
+  border-radius: 50%;
+  margin: auto;
+  margin-bottom: 100px;
+}
+.name {
+  display: flex;
+
+  margin-left: 280px;
+}
+
+.details {
+  margin-right: auto;
+  margin-left: -100px;
+  margin-top: 30px;
+}
+
+.contact-col {
+  flex-basis: 48%;
+  margin-bottom: 30px;
+}
+.contact-col div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.contact-col input,
+.contact-col textarea {
+  display: flex;
+  width: 50%;
+  padding: 10px;
+  margin: 50px;
+  box-sizing: border-box;
+  border: 1px solid rgb(199, 196, 196);
+  outline: none;
+}
+.contact-col button {
+  color: #12a1db;
+  padding: 10px;
+  margin: 50px;
+  margin-top: 0;
+  width: 25%;
+}
+.contact-col img {
+  height: 20%;
+}
+.contact-us {
+  text-align: left;
+  margin: 50px;
+}
+.con-img {
+  display: flex;
+  justify-content: space-around;
+}
+ 
+.footer {
+  width: 100%;
+  padding: 30px 0;
+  text-align: center;
+  background-color: #113255;
+  display: flex;
+  justify-content: space-evenly;
+}
+.footer h4, div{
+  color: #ffffff;
+}
+.footer button {
+  background-color: #12A1DB;
+  display: inline-block;
+  border-radius: 30px;
+  padding: 12px 34px;
+  color: rgb(207, 204, 204);
+  
+  cursor: pointer;
+}
+ul, li{
+  list-style-type: none;
+  padding: 7px;
+}
+.footer input {
+  padding: 10px;
+  border-radius: 20px;
+  margin: 10px;
+background: transparent;
+  
+}
+ 
