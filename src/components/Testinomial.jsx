@@ -15,66 +15,60 @@ export const Testinomial = () => {
             <hr className="line"></hr>
           </div>
 
-          <div>
-            <div className="name">
-              <img className="testimonial-img" src={boy} alt="" />
+          <div className="name">
+            <img className="testimonial-img" src={boy} alt="" />
 
-              <div className="details">
-                <div className="center">
-                  <h3>Kevin Dash</h3>
-                </div>
-                <div>
-                  <p>Tmmy </p>
-                </div>
-                <div>
-                  <i className="fa fa-star"></i>
-                  <i className="fa fa-star"></i>
-                  <i className="fa fa-star"></i>
-                  <i className="fa fa-star"></i>
-                  <i className="fa fa-star"></i>
-                </div>
+            <div className="details">
+              <div className="center">
+                <h3>Kevin Dash</h3>
+              </div>
+              <div>
+                <p>Tmmy </p>
+              </div>
+              <div>
+                <i className="fa fa-star"></i>
+                <i className="fa fa-star"></i>
+                <i className="fa fa-star"></i>
+                <i className="fa fa-star"></i>
+                <i className="fa fa-star"></i>
               </div>
             </div>
           </div>
-          <div>
-            <div className="name">
-              <img className="testimonial-img" src={boy} alt="" />
+          <div className="name">
+            <img className="testimonial-img" src={boy} alt="" />
 
-              <div className="details">
-                <div className="center">
-                  <h3>Kevin Dash</h3>
-                </div>
-                <div>
-                  <p>Tmmy </p>
-                </div>
-                <div>
-                  <i className="fa fa-star"></i>
-                  <i className="fa fa-star"></i>
-                  <i className="fa fa-star"></i>
-                  <i className="fa fa-star"></i>
-                  <i className="fa fa-star"></i>
-                </div>
+            <div className="details">
+              <div className="center">
+                <h3>Kevin Dash</h3>
+              </div>
+              <div>
+                <p>Tmmy </p>
+              </div>
+              <div>
+                <i className="fa fa-star"></i>
+                <i className="fa fa-star"></i>
+                <i className="fa fa-star"></i>
+                <i className="fa fa-star"></i>
+                <i className="fa fa-star"></i>
               </div>
             </div>
           </div>
-          <div>
-            <div className="name">
-              <img className="testimonial-img" src={boy} alt="" />
+          <div className="name">
+            <img className="testimonial-img" src={boy} alt="" />
 
-              <div className="details">
-                <div className="center">
-                  <h3>Kevin Dash</h3>
-                </div>
-                <div>
-                  <p>Tmmy </p>
-                </div>
-                <div>
-                  <i className="fa fa-star"></i>
-                  <i className="fa fa-star"></i>
-                  <i className="fa fa-star"></i>
-                  <i className="fa fa-star"></i>
-                  <i className="fa fa-star"></i>
-                </div>
+            <div className="details">
+              <div>
+                <h3>Kevin Dash</h3>
+              </div>
+              <div>
+                <p className="center">Tmmy </p>
+              </div>
+              <div>
+                <i className="fa fa-star"></i>
+                <i className="fa fa-star"></i>
+                <i className="fa fa-star"></i>
+                <i className="fa fa-star"></i>
+                <i className="fa fa-star"></i>
               </div>
             </div>
           </div>

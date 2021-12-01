@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <div>
       <section className="footer">
-        <div>
+        <div className="footer-align">
           <h4>News letter</h4>
           <p>printer took a galley of type and scrambled it to make a type</p>
           <input type="email" placeholder="Enter Email" />
@@ -21,7 +21,7 @@ const Footer = () => {
             <li>Testinomial</li>
           </ul>
         </div>
-        <div>
+        {/* <div>
           Follow us
           <ul>
             <li>Facebook</li>
@@ -29,7 +29,7 @@ const Footer = () => {
             <li>Twitter</li>
             <li>Instagram</li>
           </ul>
-        </div>
+        </div> */}
         {/* <div>
           <p>Copyright &copy; 2022</p>
         </div> */}

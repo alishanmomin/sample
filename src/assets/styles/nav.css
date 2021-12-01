@@ -6,9 +6,50 @@
 body {
   margin: 0px;
 }
+nav .fa {
+  display: none;
+}
+nav {
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  flex: 1;
+  text-align: right;
+  cursor: pointer;
+}
+.nav-links ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 1% 2%;
+  position: relative;
+}
+.nav-links ul li a {
+  color: aliceblue;
+  text-decoration: none;
+  font-size: large;
+  font-weight: bold;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.nav-links ul li::after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  background: #f44336;
+  display: block;
+  transition: 0.5s;
+}
+.nav-links ul li:hover::after {
+  width: 100%;
+}
+
 .header {
   padding-top: 10px;
-  background-color: #ffffff;
+  background-color: #ffff;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -16,10 +57,15 @@ body {
 .logo {
   height: 50px;
   width: auto;
-  margin-left: 30px;
+  /* margin-left: 30px; */
 }
 .content {
   position: relative;
+}
+p,
+h3 {
+  text-align: center;
+  color: #113255;
 }
 .content div {
   position: absolute;
@@ -122,10 +168,10 @@ h1 {
   width: 50px;
 }
 .os {
-  margin: 0;
   color: rgb(0, 0, 0);
   letter-spacing: 0.04cm;
   text-align: center;
+  padding-top: 40px;
 }
 
 i {
@@ -152,19 +198,17 @@ i {
   background-size: cover;
   display: block;
   border-radius: 50%;
-  margin: auto;
-  margin-bottom: 100px;
 }
 .name {
   display: flex;
-
-  margin-left: 280px;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  padding: 30px;
 }
 
 .details {
-  margin-right: auto;
-  margin-left: -100px;
-  margin-top: 30px;
+  padding: 30px;
 }
 
 .contact-col {
@@ -186,6 +230,7 @@ i {
   box-sizing: border-box;
   border: 1px solid rgb(199, 196, 196);
   outline: none;
+  resize: none;
 }
 .contact-col button {
   color: #12a1db;
@@ -205,7 +250,7 @@ i {
   display: flex;
   justify-content: space-around;
 }
- 
+
 .footer {
   width: 100%;
   padding: 30px 0;
@@ -214,27 +259,120 @@ i {
   display: flex;
   justify-content: space-evenly;
 }
-.footer h4, div{
+.footer h4,
+div {
   color: #ffffff;
 }
 .footer button {
-  background-color: #12A1DB;
+  background-color: #12a1db;
   display: inline-block;
   border-radius: 30px;
   padding: 12px 34px;
   color: rgb(207, 204, 204);
-  
+
   cursor: pointer;
 }
-ul, li{
+ul,
+li {
   list-style-type: none;
   padding: 7px;
 }
 .footer input {
   padding: 10px;
   border-radius: 20px;
+  border: none;
   margin: 10px;
-background: transparent;
-  
+  background: transparent;
 }
- 
+
+@media (max-width: 700px) {
+  .row {
+    flex-direction: column;
+  }
+  .name {
+    flex-direction: column;
+    padding: 0px;
+  }
+  .logo {
+    height: 30px;
+  }
+
+  .contact-col input,
+  .contact-col textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+  }
+  .contact-us {
+    margin: 0px;
+  }
+  .footer-align {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer-align h4 {
+    text-align: left;
+    margin-left: 20px;
+  }
+  .footer input,
+  button {
+    width: 40%;
+    margin-left: 10px;
+  }
+  .icons .fab {
+    color: #12a1db;
+    cursor: pointer;
+    padding: 5px;
+    text-align: right;
+    border: 1px solid #12a1db;
+    margin-left: 5px;
+    font-size: 12px;
+  }
+  .services {
+    text-align: center;
+    padding-top: 0px;
+  }
+  .contact-col button {
+    color: #12a1db;
+    padding: 10px;
+    margin: 50px;
+    margin-top: 0;
+    width: 45%;
+  }
+  .nav-links ul li {
+    display: block;
+  }
+  .nav-links {
+    position: fixed;
+    background: #645a59;
+    height: 100vh;
+    width: 200px;
+    top: 0;
+    right: -200px;
+    text-align: left;
+    z-index: 2;
+    transition: 1s;
+  }
+  nav .fa {
+    display: block;
+    color: #fff;
+    margin: 10px;
+    font-size: 22px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  .nav-links ul {
+    padding: 30px;
+    text-align: center;
+  }
+  .fa fa-times {
+    text-decoration: none;
+  }
+  .contact-col img {
+    height: 10%;
+  }
+  img {
+    width: 80%;
+    padding-left: 50px;
+  }
+}
